@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		CECBC02B264A1F11002CA75B /* Modal_Bottom_Sheet_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECBC02A264A1F11002CA75B /* Modal_Bottom_Sheet_DemoApp.swift */; };
-		CECBC02D264A1F11002CA75B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECBC02C264A1F11002CA75B /* ContentView.swift */; };
 		CECBC02F264A1F12002CA75B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECBC02E264A1F12002CA75B /* Assets.xcassets */; };
 		CECBC032264A1F12002CA75B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECBC031264A1F12002CA75B /* Preview Assets.xcassets */; };
+		CECBC03C264A1F7A002CA75B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECBC03B264A1F7A002CA75B /* ContentView.swift */; };
+		CECBC03F264A1F7F002CA75B /* BottomSheetModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECBC03E264A1F7F002CA75B /* BottomSheetModal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CECBC027264A1F11002CA75B /* Modal Bottom Sheet Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Modal Bottom Sheet Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECBC02A264A1F11002CA75B /* Modal_Bottom_Sheet_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal_Bottom_Sheet_DemoApp.swift; sourceTree = "<group>"; };
-		CECBC02C264A1F11002CA75B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CECBC02E264A1F12002CA75B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CECBC031264A1F12002CA75B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CECBC033264A1F12002CA75B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECBC03B264A1F7A002CA75B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CECBC03E264A1F7F002CA75B /* BottomSheetModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomSheetModal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +54,9 @@
 		CECBC029264A1F11002CA75B /* Modal Bottom Sheet Demo */ = {
 			isa = PBXGroup;
 			children = (
+				CECBC03E264A1F7F002CA75B /* BottomSheetModal.swift */,
 				CECBC02A264A1F11002CA75B /* Modal_Bottom_Sheet_DemoApp.swift */,
-				CECBC02C264A1F11002CA75B /* ContentView.swift */,
+				CECBC03B264A1F7A002CA75B /* ContentView.swift */,
 				CECBC02E264A1F12002CA75B /* Assets.xcassets */,
 				CECBC033264A1F12002CA75B /* Info.plist */,
 				CECBC030264A1F12002CA75B /* Preview Content */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CECBC02D264A1F11002CA75B /* ContentView.swift in Sources */,
 				CECBC02B264A1F11002CA75B /* Modal_Bottom_Sheet_DemoApp.swift in Sources */,
+				CECBC03F264A1F7F002CA75B /* BottomSheetModal.swift in Sources */,
+				CECBC03C264A1F7A002CA75B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
